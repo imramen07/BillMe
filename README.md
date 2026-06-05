@@ -1,4 +1,4 @@
-#BillMe
+# BillMe
 
 ---
 
@@ -6,7 +6,7 @@ BillMe is a lightweight retail billing backend build with FastAPI and SQLAlchemy
 
 ---
 
-##Features
+## Features
 
 ---
 
@@ -28,7 +28,7 @@ BillMe is a lightweight retail billing backend build with FastAPI and SQLAlchemy
 
 ---
 
-##Tech Stack
+## Tech Stack
 
 ---
 
@@ -39,7 +39,7 @@ BillMe is a lightweight retail billing backend build with FastAPI and SQLAlchemy
 
 ---
 
-##Project Tree
+## Project Tree
 
 ---
 
@@ -57,53 +57,53 @@ BillMe is a lightweight retail billing backend build with FastAPI and SQLAlchemy
 
 ---
 
-##Design
+## Design
 
 ---
 
-###Customer
+### Customer
 Stores customer information (name, contact info, customer-id)
 
-###Product
+### Product
 Stores product details (name, proce, categor, stock)
 
-###Invoice
+### Invoice
 Representation of the bill
 
-###Invoice Item
+### Invoice Item
 Represents products included in an invoice
 
-##Flow
+## Flow
 Customer	->	Invoice		->	InvoiceItem	->	Product
 
 ---
 
-##API Endpoints
+## API Endpoints
 
 ---
 
-###Customers
+### Customers
 - POST /customers/
 - GET /customers/
 - GET /customers/{customer_id}
 - DELETE /customers/{customer_id}
 
-###Products
+### Products
 - POST /products/
 - GET /products/
 
-###Invoices
+### Invoices
 - POST /invoices/
 - GET /invoices/
 - GET /invoices/{invoice_id}
 
-###Invoice Items
+### Invoice Items
 - POST /invoice-items/
 - GET /invoice-items/
 
 ---
 
-##Running the project
+## Running the project
 
 ---
 
@@ -124,7 +124,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-##Future Improvements
+## Future Improvements
 
 ---
 
