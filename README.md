@@ -43,6 +43,8 @@ BillMe is a lightweight retail billing backend build with FastAPI and SQLAlchemy
 
 ---
 
+```bash
+BillMe
 │   README.md
 │   requirements.txt
 │
@@ -54,6 +56,7 @@ BillMe is a lightweight retail billing backend build with FastAPI and SQLAlchemy
         main.py
         models.py
         products.py
+```
 
 ---
 
